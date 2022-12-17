@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./inicio.js"></script>
+    <title>YouFly</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav1">
+            <ul id="menu">
+                <li><a href="login.html" id="cadastro">Login</a></li>
+                <li><a href="#explorar1">Explorar </a></li>
+                <li><a href="./tabela-main/table.html" id="control">Controle financeiro </a> </li>
+                <li><a href="#mais"  id="saiba-mais">Saiba mais </a></li>
+                <li> <a href="#sobre" id="sobre-nos"> Sobre nós </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="YouFly">
+            <div class="logo">
+                <h2 id="You"> You</h2>
+                <h2 id="fly">fly </h2>
+            </div>
+            <div class="slogan">
+                <h3>Você financeiramente <br> mais leve! </h3>
+            </div>
+        </div>
+
+        <!-- vídeo -->
+        <!-- <hr size="100vw"> -->
+        <section id="explorar1" class="video" align=center>
+            <iframe width="748" height="409" src="https://www.youtube.com/embed/qqYcho7ca6Q" title="YOUFLY - SITE DE EDUCAÇÃO FINANCEIRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <!-- explorar -->
+        <section id="explorar">
+            <div onclick="openModal()" class="btn">Planejamento financeiro</div>
+
+            <div id="modal-container" class="modal-container"> <button class="fechar" id="fechar">X</button>
+                <!-- <div id="tema"> <h2>Planejamento financeiro</h2> </div> -->
+                <div class="modal">
+                    <h2>Defina suas prioridades</h2>
+                    <p> É importante ter em mente o que é prioridade para você. </p>
+                    <p> Dessa forma, o seu dinheiro será melhor redirecionado.</p>
+                    <h3>Vamos refletir?</h3>
+                    <p> É mais interessante poupar para pagar um curso de qualificação profissional de R$90 por mês ao
+                        invés de pagar o mesmo valor em uma pizza no final de semana.</p>                        
+                    <h3> Foque nisso! </h3>
+                </div>
+                <div class="modal">
+                    <h2>Planejamento Financeiro</h2>
+                    <p>Organize suas finanças na planilha financeira da YouFly;</p>
+                    <p>Faça um diagnóstico preciso;</p>                        
+                    <p>Mapeie seus gastos e ganhos.</p>
+                </div>
+                <div class="modal">
+                    <h2>Tenha metas</h2>
+                    <p>Ter visão de futuro é essencial! </p>
+                    <p>Defina metas de curto, médio e longo prazo.</p>
+                    <p>Não sabe como definir as metas?</p>
+                    <p><a href="https://www.youtube.com/watch?v=Lb-dn0C5PXg">Clique aqui</a></p>
+                    <h3>Vamos refletir?</h3>
+                    <p> Você pretende trocar de celular ou de carro?</p>
+                    <p>Estabeleça uma <b><u>data</u></b> para que esse objetivo seja atingido.</p>
+                    <h3> Foque nisso! </h3>
+                </div>
+            </div>  
+            
+            <div onclick="openModal2()" class="btn">Dicas Financeiras</div>
+
+            <div id="modal2-container" class="modal-container"> <button class="fechar" id="fechar">X</button>
+                <!-- <div id="tema"> <h2>Planejamento financeiro</h2> </div> -->
+                <div class="modal">
+                    <h2>Controlando os impulsos</h2>
+                    <h3>Vamos refletir?</h3>
+                    <p> Muitas vezes você não percebe, mas faz compras por impulsividade. Gastar por impulso pode estar ligado a algum transtorno como a ansiedade.</p>                        
+                    <h3> Faça um exercício </h3>
+                    <p>Sempre que você desejar comprar uma roupa, primeiro veja o que você já tem e reorganize suas coisas, assim vai perceber que muitas vezes você já tem tudo que precisa! </p>
+                </div>
+                <div class="modal">
+                    <h2>Gaste somente o necessário</h2>
+                    <p>Você quer muito comprar algo, então pretende ir a loja fazer essa compra, porém você sabe que chegando ao local, por impulsoo, compra algo que não precisa, simplesmente por estar em promoção.</p>
+                    <h3>Faça um exercício:</h3>
+                    <p>Anote sempre tudo o que precisa comprar!</p>
+                    <p>Faça uma lista e leve o dinheiro somente para essa compra. Dessa forma, a economia será maior.</p>
+                </div>
+                <div class="modal">
+                    <h2>Seja consciente</h2>
+                    <p>As vezes, por fazer muitas atividades via internet, como pagamentos, compras, trasnferências, etc, o cadastro de cartões tanto de crédito como de débito é viável, mas vamos pensar com uma mente mais consciente...</p>
+                    <p>Para uma melhor segurança, tanto dos seus dados como dos seus gastos, o ideal é não cadastrar seus dados de cartões na internet e procurar fazer compras em lojas físicas.</p>
+                </div>
+                <div class="modal">
+                    <h2>Atente-se</h2>
+                    <h3>Atente-se aos seus gastos</h3>
+                    <p>Ajuste seu padrão de vida ao seu orçamento, conheça todos os seus gasos e acompanhe a movimentação do dinheiro na sua conta bancária.</p>
+                    <h3>Atente-se aos preços</h3>
+                    <p>Se pagar à vista por um produto for mais barato do que pagar com o cartão, dê preferência a pagar em dinheiro.</p>
+                </div>               
+            </div> 
+
+            <div onclick="openModal3()" class="btn">Investimentos</div>
+
+            <div id="modal3-container" class="modal-container"> <button class="fechar" id="fechar">X</button>
+                <div class="modal">
+                    <h2>Pedimos desculpa!</h2>
+                    <h2>Ainda estamos trabalhando para trazer as dicas de investimentos para você, pedimos desculpa por isso!</h2>
+                    <h2>Enquanto trabalhamos nisso você pode acessar nossa <a href="./tabela-main/table.html">planilha financeira</a> para ter controle sobre suas finanças.</h2>
+                </div>
+        </section>
+        
+        <!-- vídeo MePoupe -->
+        <section id="mais" class="MePoupe" align=center>
+            <nav class="playlist">
+                <h3>Quer entender mais sobre como sair das dívidas e alcançar a liberdade financeira? Ouça as dicas dos
+                    especialistas!</h3>
+                <iframe width="727" height="409"
+                    src="https://www.youtube.com/embed/Lb-dn0C5PXg?list=PL5vSn8ej1b0tFJPaD72cHxR6hDGgmGQTl"
+                    title="COMO SOBRAR DINHEIRO: 5 super dicas que funcionam" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </nav>
+        </section>
+    
+        <!--  -->
+        <section >
+            <div class="saiba-mais">
+                <h1>Duvidas Frequentes</h1>
+                <button class="saiba">Tem idade mínima para fazer o cadastro? Sim, 14 anos</button>
+                <button class="saiba"> O site é pago? Não</button>
+                <button class="saiba">A planilha financeira é gratuita? Sim</button>
+                <button class="saiba">Para utilizar as ferramentas do site é necessário fazer o cadastro? Sim</button>
+                <button class="saiba"> Porque o site precisa do meu CPF para fazer o cadastro?<br> Precisamos do CPF para
+                    sincronizar com os dados da planilha de controle financeiro,<br> já que cada usuário possui um CPF
+                    diferente, dessa forma não haverá uma mistura de planilhas<br>e tudo que for inserido será salvo conforme
+                    esse meio de identificação que é o CPF,<br> não se preocupe porque seus dados estão seguros.</button>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="foto">
+                <img src="./img/Visão_page-0001.jpg" alt="Foto 1" >
+                <img src="./img/Visão_page-0002.jpg" alt="Foto 2" >
+                <img src="./img/Visão_page-0003.jpg" alt="Foto 3" >
+                <img src="./img/Visão_page-0004.jpg" alt="Foto 4" >
+            </div>
+            <div class="meninas">
+                <img src="img/19.jpg" alt="">
+                <img src="img/20.jpg" alt="">
+                <img src="img/21.jpg" alt="">
+            </div>
+        </section>
+
+        <section >
+            <div class="saiba-mais2">
+                <button class="saiba">Contato: contatoyoufly@gmail.com</button>
+                <button class="saiba">Nos siga no instagram: @youfly.br </button>
+                <button class="saiba">A planilha financeira é gratuita? Sim</button>
+                <button class="saiba">Avalie a plataforma: Forms</button>
+                <button class="indicar">Indicação de livros</button>
+            </div>
+        </section>
+
+        <section class="livros">
+            <div class="div-master">
+                <div class="before"><div class="arrow-left"></div></div>
+                <div class="middle">
+                <div class="carrossel" id="mylist"> 
+                    <img src="img/Pai Rico Pai Pobre.png" alt="Pai Rico Pai Pobre"> 
+                    <img src="img/COMO-ORGANIZAR-SUA-VIDA-FINANCEIRA-1.png" alt="Como organizar sua vida financeira">
+                    <img src="img/habitos-atomicos-james-clear-1024x1024.png" alt="Hábitos atômicos">
+                    <img src="img/o homem mais rico da babilônia.png" alt="O homem mais rico da Babilônia">
+                    <img src="img/do mil ao milhão.png" alt="Do mil ao milhão">
+                </div>
+                </div>
+                <div class="after"><div class="arrow-right"></div></div>
+            </div>
+            
+            <div class="div-master"> </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados a youfly</p>
+    </footer>
+</body>
+
+</html>

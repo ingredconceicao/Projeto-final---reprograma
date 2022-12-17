@@ -1,0 +1,55 @@
+body{
+    background-color: #711e803f;
+    color: #00000098;;
+}
+
+caption{
+    text-align: center;
+    background-color: #711e80c2;
+    color: #ffffffc2;
+    font-size: larger;
+}
+
+/* .demo {
+    border:1px sólido #C0C0C0;
+    border-collapse:colapso;
+    padding:5px;
+} */
+
+.demo th {
+    border:1px sólido #C0C0C0;
+    /* padding:5px; */
+    /* background:#F0F0F0; */
+}
+
+.demo td {
+    border:1px sólido #C0C0C0;
+    /* padding:5px; */
+}
+
+.yellow{
+    background-color: #ffcc00d3;
+    color: #5f4c00d3;
+}
+
+.yellow2{
+    background-color: #ffcc008f;
+    color: #5f4c00d3;
+    text-align: center;
+}
+
+.purple{
+    background-color: #711e80c2;
+    color: #00000098;
+}
+
+.purple2{
+    background-color: #711e8098;
+    color: #00000098;
+    text-align: center;
+}
+
+input{
+    width: 10vh;
+    
+}
